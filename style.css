@@ -1,0 +1,191 @@
+body
+{
+	margin:0;
+}
+#header
+{
+	background:#000000;
+	color:#ffffff;
+	height:100px;	
+	border-bottom:3px solid red;
+}
+#brand
+{
+	float:left;
+	margin:1%;
+}
+#nav
+{
+	
+	float:right;
+}
+#nav ul
+{
+	list-style-type:none;
+}
+#nav ul li
+{
+	display:inline-block;
+	padding:15px;
+	margin:15px 20px 0px 20px;
+	text-transform:uppercase;
+}
+ul li a
+{
+	color:white;
+	text-decoration:none;
+}
+ul li a:hover
+{
+	background:red;
+	padding:6px;
+}
+
+#showcase
+{
+	height:55%;
+	text-align:center;
+	color:#ffffff;
+	background:url(bg_2.jpg) no-repeat bottom right;
+	margin-top:-70px;
+}
+#showcase h1
+{
+	padding:20px;
+	font-size:55px;
+	margin:70px;
+}
+#showcase p
+{
+	margin:30px;
+	padding:20px;
+	font-size:19px;
+}
+#newsletter
+{
+	margin-top:-21px;
+	height:100px;
+	background:#000000;
+	color:#ffffff;
+}
+#newsletter h1
+{
+	margin-top:20px;
+	float:left;
+	text-transform:uppercase;
+	padding:10px;
+}
+form
+{
+	float:right;
+	margin:20px 10px 0px 0px;
+	padding:20px;
+}
+input[type="text"]
+{
+	width:150px;
+	height:20px;
+	border:none;
+}
+input[type="Submit"]
+{
+	border:none;
+	height:25px;
+	background:orange;
+	border-radius:5px;
+	color:#ffffff;
+}
+#boxes
+{
+	
+}
+.box
+{
+	
+	display:inline-block;
+	width:31%;
+	text-align:center;
+	padding:10px;
+}
+#boxes img
+{
+	height:18%;
+	width:28%;
+}
+#boxes a
+{
+	
+	text-decoration:none;
+	background:#537DEB;
+	padding:10px;	
+	border-radius:5px;
+	color:#ffffff;	
+}
+#footer
+{
+	height:8%;
+	background:#000000;
+	color:#ffffff;
+	text-align:center;
+}
+@media (min-width:320px) and (max-width:600px)
+{
+	#brand h1
+	{
+		font-size:35px;
+		
+		margin-top:-8px;	
+	}	
+	#nav
+	{
+		display:none;
+	}	
+	#header
+	{
+		height:70px;
+	}
+	#showcase h1
+	{
+		font-size:35px;
+		padding:0px;
+		width:60%;
+		
+	}
+	#showcase p
+	{	
+		margin-top:-50px;
+		padding:0px;
+	}
+	#Newsletter h1
+	{
+		font-size:20px;
+		color:orange;
+		width:25%;
+	}
+	#Newsletter form
+	{
+		float:left;
+		margin-top:30px;
+		padding:0px;	
+		padding-left:10px;	
+	}
+	input[type="text"]
+	{
+		width:150px;
+		border-radius:5px;
+	}
+	input[type="Submit"]
+	{
+		
+		height:22px;
+		background:red;
+	}
+	#boxes div
+	{
+		width:97%;	
+		display:block;
+	}
+
+}
+
+
